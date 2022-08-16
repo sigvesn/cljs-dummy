@@ -1,0 +1,13 @@
+^{:watch-dirs          ["src"]
+  :cljs-devtools       true
+  :open-file-command   "emacsclient"}
+{:main              web.core
+ :output-dir        "target/public/js/out"
+ :asset-path        "/js/out"
+ :output-to         "target/public/js/app.js"
+
+ :optimizations     :none
+ :parallel-build    true
+ :cache-analysis    true
+ :pretty-print      true
+ :source-map        true}
